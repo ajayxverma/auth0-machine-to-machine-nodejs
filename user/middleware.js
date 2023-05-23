@@ -5,9 +5,9 @@ const options = {
   url: "https://dev-fs6-sm7c.us.auth0.com/oauth/token",
   headers: { "content-type": "application/json" },
   data: {
-    client_id: "8MFnZo4DnJ7iI3NYvMquHX4s5XRh9XuV",
+    client_id: "***********************************",
     client_secret:
-      "YxHFx6EvF__H5AESpHmyRwlMo8jpJTO_AGyWuthN-sjRUb_pMeAfe-Bv7iijs619",
+      "*******************************************",
     audience: "http://localhost:5005/api/contacts/",
     grant_type: "client_credentials",
   },

@@ -4,7 +4,7 @@ const { auth, requiredScopes } = require("express-oauth2-jwt-bearer");
 
 const checkJwt = auth({
   audience: "http://localhost:5005/api/contacts/",
-  issuerBaseURL: `https://dev-fs6-sm7c.us.auth0.com/`,
+  issuerBaseURL: `https://dev-***-***-.auth0.com/`,//add the issuerBaseURL from your Auth0 accound
 });
 
 //app.use(checkJwt);

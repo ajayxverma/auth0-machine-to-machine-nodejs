@@ -2,7 +2,7 @@ var axios = require("axios").default;
 
 const options = {
   method: "POST",
-  url: "https://dev-fs6-sm7c.us.auth0.com/oauth/token",
+  url: "https://dev-***-***.**.auth0.com/oauth/token",
   headers: { "content-type": "application/json" },
   data: {
     client_id: "***********************************",
